@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: whitesmoke;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  /* width: 60%; */
+  margin: auto;
+  padding-top: 100px;
+}
+
+#box {
+  /* flex: 33%; */
+  height: 490px;
+  color: rgba(255, 255, 255, 0.75);
+  width: 310px;
+  position: relative;
+}
+
+.box1 {
+  background: #e38826;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.box2 {
+  background: #006970;
+}
+.box3 {
+  background: #004241;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#box h1 {
+  font-size: 30px;
+  position: absolute;
+  left: 16%;
+  margin-top: 130px;
+  text-transform: uppercase;
+}
+#box p {
+  font-size: 18px;
+  position: absolute;
+  left: 16%;
+  margin-top: 200px;
+  width: 73%;
+  line-height: 1.7;
+}
+#box button {
+  font-size: 18px;
+  position: absolute;
+  left: 16%;
+  margin-top: 380px;
+  width: 140px;
+  background: #ffff;
+  border: 1px solid white;
+  height: 45px;
+  border-radius: 25px;
+}
+
+#box button:hover {
+  background: none;
+  color: #ffff;
+}
+.box1 button {
+  color: #e38826;
+}
+.box2 button {
+  color: #006970;
+}
+.box3 button {
+  color: #004241;
+}
+
+#box img {
+  position: absolute;
+  width: 60px;
+  height: 50px;
+  margin-top: 60px;
+  left: 16%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
